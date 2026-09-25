@@ -3,3 +3,5 @@ services:
     image: docker.io/traefik/whoami
     ports:
       - "8090:80" 
+    environment:
+      WHOAMI_NAME: ${APP_NAME}
