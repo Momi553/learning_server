@@ -2,4 +2,4 @@ services:
   whoami:
     image: docker.io/traefik/whoami
     ports:
-      - "8091:80" 
+      - "8090:80" 
